@@ -34,9 +34,24 @@ function potencia(x)
 }
 alert(potencia(5))
 
-function saludo()
+/*OTRA FORMA ES:....*/
+function cuadrado(número)
 {
-    let nombre = prompt('Ingresa tu nombre')
+    return número * número
+}
+alert(cuadrado(25))
+
+function saludo() /*aquí se puede poner variables, entre los()*/
+{
+    let nombre = prompt('Ingresa tu nombre y apellido porfavor.')
     return ' Bienvenido ' + nombre
 }
 alert(saludo())
+/*para llamar a una funcion debemos escribir su nombre(y valores)*/
+
+function potenciaCuadrada(y)
+{
+    let resultadoPotencia = y * y
+    return resultado
+}
+alert(potenciaCuadrada(10))
