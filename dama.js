@@ -3,57 +3,55 @@
 function potenciaCuadrada(x)
 {
     let resultadopotenciaCuadrada = x * x
-    return resultado
+    return resultadopotenciaCuadrada
 }
 alert(potenciaCuadrada(25)) /*1)*/
 
 function potenciaCúbica(x)
 {
     let resultadopotenciaCúbica = x * x * x
-    return resultado
+    return resultadopotenciaCúbica
 }
 alert(potenciaCúbica(50)) /*2)*/
 
 function operacióna(x) /*3)*/
 {
-    operacióna = x ^ 2 - x - 10
-    let resultadooperacióna = x * x - x - 10
-    return resultado
+    let resultadooperacióna = x ^ 2 - x - 10
+    return resultadooperacióna
 }
 alert(operacióna(15))
 
 function operaciónb(x)
 {
     let resultadooperaciónb = (x - 3) * 2
-    return resultado
+    return resultadooperaciónb
 }
 alert(operaciónb(8))
 
 function operaciónc(x)
 {
     let resultadooperaciónc = x * x ^ 2 + 20
-    return resultado
+    return resultadooperaciónc
 }
 alert(operaciónc(4))
 
 function operaciónd(x)
 {
     let resultadooperaciónd = x / 2 + 5
-    return resultado
+    return resultadooperaciónd
 }
 alert(operaciónd(10))
 
 function operacióne(x)
 {
-    operacióne = x ^ 3 + x ^ 2 + 10
-    let resultadooperacióne = x * x * x + x * x + 10
-    return resultado
+    let resultadooperacióne = x ^ 3 + x ^ 2 + 10
+    return resultadooperacióne
 }
 alert(operacióne(6))
 
 function operaciónf(x)
 {
     let resultadooperaciónf = (x * 10) * 5
-    return resultado
+    return resultadooperaciónf
 }
 alert(operaciónf(20))
